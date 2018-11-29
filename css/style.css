@@ -1,0 +1,122 @@
+@media screen and (max-width: 500px) {
+	* {
+		font-family: 'Roboto', sans-serif;
+		border: 0.5px solid black;
+		border: none;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		/*background: #5590b8;
+		*/
+		background: rgb(120, 153, 196);
+		color: white;
+		
+	}
+
+	#me {
+		margin: 1vmax;
+        line-height: 1.2vmax;
+	}
+	#me h1{
+        line-height: 3vmax;
+        font-size: 4vmax;
+	}
+    #me h2{
+        font-size: 3vmax;
+        line-height: 2vmax;
+    }
+    a {
+		width: 100%;
+        text-align: center;
+		color: rgb(255, 255, 255);
+		line-height: 4vmax;
+		padding: 3%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		font-family: Georgia, serif;
+		font-weight: normal;
+		text-decoration: none;
+		font-style: normal;
+		font-variant: normal;
+		text-transform: none;
+		background-image: linear-gradient(rgb(116, 143, 178) 0%, rgb(70, 104, 152) 55%, rgb(101, 149, 216) 100%);
+		display: inline-block;
+		border: 0.5px solid rgb(65, 64, 64);
+		margin-top: 10%;
+
+	}
+	#links {
+		padding-top: 30%;
+	}
+}
+
+
+@media screen and (min-width: 501px) {
+	* {
+		font-family: 'Roboto', sans-serif;
+	}
+	html {
+		padding:0;
+		margin:0;
+	}
+	body {
+		margin: 0;
+		padding: 0;
+		
+	}
+	#contact {
+		margin-top: 1.5vmax;
+	}
+	#telMail {
+		display: none;
+	}
+	
+	#topMe {
+		background-color: #366b94;
+		display: flex;
+		flex-direction: row;
+		color: white;
+		width: 100%;
+		
+	}
+	#topMe h1{
+		margin-top: 2vmax;
+		width: 100%;
+		margin-bottom: 0;
+		margin-left: 3vmax;
+	}
+	#topMe h2{
+		width: 100%;
+		margin-top: 0;
+		margin-bottom: 2vmax;
+		margin-left: 3vmax;
+	}
+	#aboutMe {
+		line-height: 1vmax;
+		width: 30%;
+	}
+	button {
+		border: none;
+		background-color: white;
+		color: blue;
+		
+		
+	}
+	#bas {
+		display: flex;
+		flex-direction: row;
+		/* column-count: 2; */
+		margin-top: 1vmax;
+		margin-top: 0;
+		
+	}
+	#picOfMe {
+		display : none;
+	}
+	#aboutMe {
+		/* display: inline-block; */
+		width: 100 %;
+		
+	}
+	
+}    
